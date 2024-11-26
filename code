@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online-Store</title>
+    <style>
+      * {
+        margin: 0px;
+      }
+
+      .container {
+        background-color: white;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: orange;
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+        background-color: silver;
+        
+      }
+      .row1 {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(221, 95, 32);
+      
+      }
+      
+      .box {
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        
+      }
+      .box1 {
+        background-color: white;
+        margin: 10px;
+        padding: 20px;
+        width: 900px;
+      }
+      img{
+        float: left;
+      }
+      li {
+        display:inline-block;
+        padding: 10px;
+        font-size: larger;
+      }
+      a{
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div><h1>Online Store</h1></div>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="box">
+          <img src="/assets/images/1.png" />
+          <h2>Product 1</h2>
+          <p>This is the description of the product.</p>
+          <h3>Rs 230</h3>
+          <button>Add to Cart</button>
+        </div>
+        <div class="box">
+          <img src="/assets/images/2.png" />
+          <h2>Product 2</h2>
+          <p>This is the description of the product.</p>
+          <h3>Rs 200</h3>
+          <button>Add to Cart</button>
+        </div>
+        <div class="box">
+          <img src="/assets/images/3.png" />
+          <h2>Product 3</h2>
+          <p>This is the description of the product.</p>
+          <h3>Rs 375</h3>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="row1">
+          <div class="box1">
+            <img src="/assets/images/1.png"/>
+            
+            <p>the box is blue.the box is blue.the box is blue.the box is blue.the box is blue.the box is blue.vthe box is blue.the box is blue.the box is blue.</p>
+          </div>
+      </div>
+      <div class="row1">
+        <div class="box1">
+          <img src="/assets/images/2.png"/>
+          <p>the box is blue.the box is blue.the box is blue.the box is blue.the box is blue.the box is blue.the box is blue.the box is blue.</p>
+        </div>
+    </div>
+    
+    <div class="row">
+      <p>@Copyright 2024</p>
+    </div>
+    </div>
+  </body>
+</html>
